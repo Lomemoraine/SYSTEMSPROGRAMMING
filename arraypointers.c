@@ -1,5 +1,4 @@
-// C Program to demonstrate the relation between arrays and
-// pointers
+
 #include <stdio.h>
  
 int main()
@@ -15,9 +14,8 @@ int main()
            arr, &arr[0]);
  
     // printing array elements using pointers
-    printf("Array elements using pointer: ");
-    for (int i = 0; i < 5; i++) {
-        printf("%d ", *ptr++);
-    }
+  for (int i = 0; i < 5; i++) {
+        printf("%d\n ", *ptr++);
+    }    
     return 0;
 }
